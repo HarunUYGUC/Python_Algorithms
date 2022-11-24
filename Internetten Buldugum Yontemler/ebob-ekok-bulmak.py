@@ -13,6 +13,25 @@ for i in range(1,kucuksayi+1):
 print("Ebob = ",ebob)
 print("Ekok = ", (sayi1*sayi2)//ebob)
 
+# İnternetteki EBOB bulma yöntemi ile Emre'nin EBOB bulma yöntemini birleştirdim.
+# Ayrıca EBOB bulunduktan sonra EKOK'da bu yöntemle bulunabilir.
+"""Bu yöntem daha mantıklı bir yöntem."""
+
+sayi1 = int(input("Birinci Sayıyı Giriniz: "))
+sayi2 = int(input("İkinci Sayıyı Giriniz: "))
+
+if (sayi1 > sayi2):
+    kucuksayi = sayi2
+else:
+    kucuksayi = sayi1
+for i in range(kucuksayi, 0, -1):
+    if (sayi1 % i == 0) and (sayi2 % i == 0):
+        ebob = i
+        break
+
+print(f"EBOB: {ebob}")
+print(f"EKOK: {(sayi1 * sayi2) // ebob}")
+
 
 # Asal sayıları bularak EKOK bulmak.
 # https://jn7.net/girilen-iki-sayinin-asal-bolenlerini-ekok-bulma/
