@@ -41,7 +41,7 @@ A2: tekToplami = 0
 A3: tekCarpimi = 1
 A4: ciftToplami = 0 
 A5: ciftCarpimi = 1
-A6: Döngü (i; 1, 100, step=1)
+A6: Döngü (i; 1, 100, adım=1)
 A6.1:   Eğer i % 2 == 0 ise
 A6.2:       ciftToplami = ciftToplami + i
 A6.3:       ciftCarpimi = ciftCarpimi * i
