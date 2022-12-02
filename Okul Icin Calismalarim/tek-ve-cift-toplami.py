@@ -48,9 +48,9 @@ A6.3:       ciftCarpimi = ciftCarpimi * i
 A6.4:   Değil ise
 A6.5        tekToplami = tekToplami + i
 A6.6:       tekCarpimi = tekCarpimi * i
-A7: Yaz tekToplami
-A8: Yaz ciftToplami
-A9: Yaz tekCarpimi
-A10: Yaz ciftCarpimi
+A7: Yaz, tekToplami
+A8: Yaz, ciftToplami
+A9: Yaz, tekCarpimi
+A10: Yaz, ciftCarpimi
 A11: Bitir
 """

@@ -48,18 +48,18 @@ A8: Bitir.
 # Sözde kod (pseude-code) ile gösterilmesi:
 """
 A1: Başla
-A2: Yaz "1. Sayıyı (sayi1) giriniz: "
-A3: Oku sayi1
-A4: Yaz "2. Sayıyı (sayi2) giriniz: "
-A5: Oku sayi2
-A6: Yaz "3. Sayıyı (sayi3) giriniz: "
-A7: Oku sayi3
+A2: Yaz, "1. Sayıyı giriniz: "
+A3: Oku, sayi1
+A4: Yaz, "2. Sayıyı giriniz: "
+A5: Oku, sayi2
+A6: Yaz, "3. Sayıyı giriniz: "
+A7: Oku, sayi3
 A8: Eğer (sayi1 > sayi2) ve (sayi1 > sayi3) ise
 A8.1:   enBuyukSayi = sayi1
 A9: Eğer (sayi2 > sayi3) ve (sayi2 > sayi1) ise
 A9.1:   enBuyukSayi = sayi2
 A10: Eğer (sayi3 > sayi1) ve (sayi3 > sayi2) ise
 A10.1:  enBuyukSayi = sayi3
-A11: Yaz enBuyukSayi
+A11: Yaz, enBuyukSayi
 A12: Bitir.
 """

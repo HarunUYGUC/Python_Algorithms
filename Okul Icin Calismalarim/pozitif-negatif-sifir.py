@@ -21,13 +21,13 @@ A6: Bitir.
 # Sözde kod (pseude-code) ile gösterilmesi:
 """
 A1: Başla
-A2: Yaz "Bir sayı (x) giriniz: "
-A3: Oku x
-A4: Eğer x > 0 ise
-A4.1:   Yaz "Pozitif"
-A5: Eğer x < 0 ise
-A5.1:   Yaz "Negatif"
-A6: Eğer x == 0 ise
-A6.1:   Yaz "Sıfır"
+A2: Yaz, "Bir sayı giriniz: "
+A3: Oku, x
+A4: Eğer (x > 0) ise
+A4.1:   Yaz, "Pozitif"
+A5: Eğer (x < 0) ise
+A5.1:   Yaz, "Negatif"
+A6: Eğer (x == 0) ise
+A6.1:   Yaz, "Sıfır"
 A7: Bitir
 """
