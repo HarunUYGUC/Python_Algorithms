@@ -30,7 +30,7 @@ A5: Oku, sayi2
 A6: asalSayilar = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
 A7: ekok = 1
 A8: Döngü (i in asalSayilar)
-A8.1:   Döngü (sayi1 % i == 0) veya (sayi2 % i == 0) ise
+A8.1:   Döngü (sayi1 % i == 0) veya (sayi2 % i == 0) iken
 A8.2:       Eğer (sayi1 % i == 0) ve (sayi2 % i == 0) ise
 A8.3:           sayi1 = sayi1 / i
 A8.4:           sayi2 = sayi2 / i
