@@ -20,3 +20,27 @@ if (sayi2 > sayi3):
 print(f"Küçükten büyüğe sıralama: {sayi1} < {sayi2} < {sayi3}")
 
 
+# Sözde kod (pseude-code) ile gösterilmesi:
+"""
+A1: Başla
+A2: Yaz, "1. Sayıyı Giriniz: "
+A3: Oku, sayi1
+A4: Yaz, "2. Sayıyı Giriniz: "
+A5: Oku, sayi2
+A6: Yaz, "3. Sayıyı Giriniz: "
+A7: Oku, sayi3
+A8: Eğer (sayi1 > sayi2) ise
+A8.1:   tutucu = sayi2
+A8.2:   sayi2 = sayi1
+A8.3:   sayi1 = tutucu  
+A9: Eğer (sayi1 > sayi3) ise
+A9.1:   tutucu = sayi3
+A9.2:   sayi3 = sayi1
+A9.3:   sayi1 = tutucu
+A10: Eğer (sayi2 > sayi3) ise
+A10.1:  tutucu = sayi3
+A10.2:  sayi3 = sayi2
+A10.3:  sayi2 = tutucu
+A11: Yaz, "Küçükten büyüğe sıralama: " + sayi1 + "<" + sayi2 + "<" + sayi3
+A12: Bitir
+"""
