@@ -1,0 +1,1 @@
+"Klasörler kafayı yedi onu düzelttim. :D"
