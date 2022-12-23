@@ -8,9 +8,9 @@ for i in range(1, (kacTane + 1)):
         enBuyuk = sayi
 
 if (enBuyuk != -1):
-    print(f"Girilen sayılar arasındaki en büyük çift tam sayısı {enBuyuk} idir.")
+    print(f"Girilen sayılar arasındaki en büyük pozitif çift tam sayısı {enBuyuk} idir.")
 else:
-    print(f"Girilen sayılar arasındaki çift tam sayı yoktur.")
+    print(f"Girilen sayılar arasında pozitif çift tam sayı yoktur.")
 
 
 # Sözde kod (pseude-code) ile gösterilmesi:
@@ -24,8 +24,8 @@ A5.1:   Yaz, i + ". sayıyı giriniz: "
 A5.2:   Eğer (sayi % 2 == 0) ve (sayi > enBuyuk) ise
 A5.3:       enBuyuk = sayi
 A6: Eğer (enBuyuk != -1) ise
-A6.1:   Yaz, "En buyuk çift tam sayısı: " + enBuyuk
+A6.1:   Yaz, "En buyuk pozitif çift tam sayısı: " + enBuyuk
 A7: Değil ise
-A7.1:   Yaz, "Çift tam sayı yoktur."
+A7.1:   Yaz, "Pozitif çift tam sayı yoktur."
 A8: Bitir
 """
