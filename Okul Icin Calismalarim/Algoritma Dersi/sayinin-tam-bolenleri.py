@@ -63,7 +63,7 @@ LOOP (bolen < bolum) THEN
         bolum = sayi // bolen
         DISPLAY bolen
         DISPLAY bolum
-    bolen = bolen + 1
     ENDIF
+    bolen = bolen + 1
 ENDLOOP
 """
