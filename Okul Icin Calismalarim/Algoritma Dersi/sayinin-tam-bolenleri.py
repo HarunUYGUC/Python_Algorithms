@@ -49,3 +49,21 @@ for i in range(1, (sayi // 2 + 1)):
 
 sayininTamBolenleri.sort()
 print(f"Sayının tam bolenleri: {sayininTamBolenleri}")
+
+
+# En hızlı yöntemin "Sözde Kod (pseude-code)" ile gösterilmesi:
+# Fakat burada liste kullanmadan alt alta yazdıracağım.
+"""
+DISPLAY "Tam bölenlerini bulmak istediğiniz sayıyı giriniz: "
+GET sayi
+bolen = 1
+bolum = sayi
+LOOP (bolen < bolum) THEN
+    IF (sayi % bolen == 0) THEN
+        bolum = sayi // bolen
+        DISPLAY bolen
+        DISPLAY bolum
+    bolen = bolen + 1
+    ENDIF
+ENDLOOP
+"""
