@@ -11,7 +11,7 @@ while (len(liste) < 10):
 print(f"Fibonacci sayı dizisinin ilk 10 elemanı {liste} idir.")
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: sayi1 = 0
@@ -24,4 +24,19 @@ A5.3:   sayi1 = sayi2
 A5.4:   sayi2 = toplam
 A6: Yaz, "Fibonacci sayı dizisinin ilk 10 elemanı: " + liste
 A7: Bitir
+"""
+
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+sayi1 = 0
+sayi2 = 1
+liste = [sayi1, sayi2]
+LOOP (number of elements of the liste < 10) THEN
+    toplam = sayi1 + sayi2
+    liste append toplam
+    sayi1 = sayi2
+    sayi2 = toplam
+ENDLOOP
+WRITE "Fibonacci sayı dizisinin ilk 10 elemanı: " + liste
 """
