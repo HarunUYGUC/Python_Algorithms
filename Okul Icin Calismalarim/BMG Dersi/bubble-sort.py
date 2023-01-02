@@ -14,8 +14,8 @@ print(f"Listenin küçükten büyüğe sıralanmış hali: {liste}")
 # "Sözde Kod (pseude-code)" ile gösterilmesi:
 """
 liste = [45, 15, 23, 17, 88, 35, 75, 28, 13, 98, 1, 56, 14, 14, 73]
-FOR (i; 0 to (liste eleman sayısı - 1)) THEN
-    FOR (j; 0 to (liste eleman sayısı - 1 - i))
+FOR (i; 0 to (liste eleman sayısı - 1), STEP = 1)
+    FOR (j; 0 to (liste eleman sayısı - 1 - i), STEP = 1)
         IF (liste[j] > liste[j + 1]) THEN
             buyukEleman = liste[j]
             liste[j] = liste[j + 1]
