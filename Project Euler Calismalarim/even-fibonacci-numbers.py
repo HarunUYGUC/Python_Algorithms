@@ -13,6 +13,6 @@ while True:
     elif (fibonacciSayisi % 2 == 0):
         ciftFibonacciToplamlari += fibonacciSayisi
 
-liste.pop(len(liste) - 1)
-print(f"400'den küçük fibonacci sayıları {liste} idir.")
-print(f"Çift fibonacci sayılarının toplamı: {ciftFibonacciToplamlari}")
+liste.pop(len(liste) - 1)   # Bu satır sadece 4.000.000 gibi bazı sayılarda geçerlidir. 
+print(f"400'den küçük fibonacci sayıları {liste} idir.")    # Ve bu satır.
+print(f"Çift fibonacci sayılarının toplamı: {ciftFibonacciToplamlari}") # Önemli olan burası.
