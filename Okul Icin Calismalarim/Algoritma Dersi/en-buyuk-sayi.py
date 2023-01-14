@@ -33,7 +33,7 @@ else:
 print(f"En büyük sayı: {enBuyukSayi}")
 
 
-# Satır algoritma ile gösterilmesi:
+# Algoritmanın Açıklaması
 """
 A1: Başla.
 A2: 1. Sayıyı giriniz.
@@ -45,7 +45,7 @@ A7: Eğer 3. sayı hem 1. sayıdan hem de 2. sayıdan büyükse "3. sayı en bü
 A8: Bitir.
 """
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "1. Sayıyı giriniz: "
@@ -56,10 +56,28 @@ A6: Yaz, "3. Sayıyı giriniz: "
 A7: Oku, sayi3
 A8: Eğer (sayi1 > sayi2) ve (sayi1 > sayi3) ise
 A8.1:   enBuyukSayi = sayi1
-A9: Eğer (sayi2 > sayi3) ve (sayi2 > sayi1) ise
+A9: Eğer değilse (sayi2 > sayi3) ve (sayi2 > sayi1) ise
 A9.1:   enBuyukSayi = sayi2
-A10: Eğer (sayi3 > sayi1) ve (sayi3 > sayi2) ise
+A10: Değil ise
 A10.1:  enBuyukSayi = sayi3
-A11: Yaz, enBuyukSayi
+A11: Yaz, "En Büyük Sayı: " + enBuyukSayi
 A12: Bitir.
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "1. Sayıyı giriniz: "
+GET sayi1
+WRITE "2. Sayıyı giriniz: "
+GET sayi2
+WRITE "3. Sayıyı giriniz: "
+GET sayi3
+IF (sayi1 > sayi2) and (sayi1 > sayi3) THEN
+    enBuyukSayi = sayi1
+ELSEIF (sayi2 > sayi1) and (sayi2 > sayi3) THEN
+    enBuyukSayi = sayi2
+ELSE
+    enBuyukSayi = sayi3
+ENDIF
+WRITE "En Büyük Sayı: " + enBuyukSayi
 """
