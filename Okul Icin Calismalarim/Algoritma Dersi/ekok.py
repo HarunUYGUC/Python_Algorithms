@@ -25,7 +25,7 @@ print(f"EKOK: {ekok}")
 A1: Başla
 A2: Yaz, "EKOK'unu bulacağınız 1. sayıyı giriniz: "
 A3: Oku, sayi1
-A4: Yaz, "EKOK'unu bulacağınız 2. sayıyı giriniz: "
+A4: Yaz, "EKOK'unu bulacağınız 2. sayıyı girinizz: "
 A5: Oku, sayi2
 A6: asalSayilar = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71]
 A7: ekok = 1
