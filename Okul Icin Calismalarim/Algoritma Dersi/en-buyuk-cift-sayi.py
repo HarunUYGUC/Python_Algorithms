@@ -13,7 +13,7 @@ else:
     print(f"Girilen sayılar arasında pozitif çift tam sayı yoktur.")
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "Kaç tane pozitif tam sayı gireceksiniz?: "
@@ -29,4 +29,23 @@ A6.1:   Yaz, "En buyuk pozitif çift tam sayısı: " + enBuyuk
 A7: Değil ise
 A7.1:   Yaz, "Pozitif çift tam sayı yoktur."
 A8: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "Kaç tane pozitif tam sayı gireceksiniz?: "
+GET kacTane
+enBuyuk = -1
+FOR (i; 1 to (kacTane + 1), STEP = 1)
+    WRITE i + ". sayıyı giriniz: "
+    GET sayi
+    IF (sayi1 % 2 == 0) and (sayi > enBuyuk) THEN
+        enBuyuk = sayi
+    ENDIF
+ENDFOR
+IF (enBuyuk != -1) THEN
+    WRITE "En buyuk pozitif çift tam sayısı: " + enBuyuk
+ELSE
+    WRITE "Pozitif çift tam sayı yoktur."
+ENDIF
 """
