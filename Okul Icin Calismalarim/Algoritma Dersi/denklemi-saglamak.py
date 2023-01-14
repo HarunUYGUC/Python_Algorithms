@@ -12,7 +12,7 @@ if (bayrak == False):
     print(f"b = {b} sayısı iken 'a^3 - a^2 = b' denklemini sağlayan bir 0 < a < 100 değeri yoktur.")
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "Bir tam sayı giriniz: "
@@ -26,4 +26,21 @@ A5.4:       break
 A6: Eğer (bayrak == False) ise
 A6.1:   Yaz, "Bu denklemi sağlayan bir a sayısı yoktur."
 A7: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "Bir tam sayı giriniz: "
+GET b
+bayrak = False
+FOR (a; 1 to 100, STEP = 1)
+    IF (a^3 - a^2 == b) THEN
+        WRITE a + " sayısı (a^3 - a^2 = b) denklemini sağlar."
+        bayrak = True
+        break
+    ENDIF
+ENDFOR
+IF (bayrak == False) THEN
+    WRITE "(a^3 - a^2 = b) denklemini sağlayan bir 0 < a < 100 sayısı yoktur."
+ENDIF
 """
