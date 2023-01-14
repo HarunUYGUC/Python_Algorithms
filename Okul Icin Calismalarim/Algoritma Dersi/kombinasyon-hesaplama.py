@@ -38,13 +38,12 @@ A12: Bitir
 
 # "Sözde Kod (pseude-code)" ile gösterilmesi:
 """
-FUNCTION faktoriyel(x)
+faktoriyel(x)
     a = 1
     FOR (b; 1 to (x + 1), STEP = 1)
         a = a * b
     ENDFOR
     return a
-ENDFUNCTION
 WRITE "Kombinasyonunu hesaplamak istediğiniz kümenin eleman sayısını giriniz: "
 GET n
 WRITE "Kaçlı kombinasyonunu hesaplamak istiyorsunuz?: "
