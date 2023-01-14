@@ -9,7 +9,7 @@ print(f"{x} sayısının küpü: {kupu}")
 print(f"{x} sayısının kare kökü: {kareKoku}")
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "Bir sayı giriniz: "
@@ -21,4 +21,16 @@ A7: Yaz, "Karesi: " + karesi
 A8: Yaz, "Küpü: " + kupu
 A9: Yaz, "Kare Kökü: " + kareKoku
 A10: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "Bir sayı giriniz: "
+GET x
+karesi = x^2
+kupu = x^3
+kareKoku = x^0.5
+WRITE "Karesi: ", karesi
+WRITE "Küpü: ", kupu
+WRITE "Kare Kökü: ", kareKoku
 """
