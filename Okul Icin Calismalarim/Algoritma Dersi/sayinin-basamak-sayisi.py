@@ -10,7 +10,7 @@ while True:
         n += 1
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "Pozitif bir tam sayı giriniz: "
@@ -23,4 +23,20 @@ A5.3        break
 A5.4:   Değil ise
 A5.5:       n = n + 1
 A6: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "Pozitif bir tam sayı giriniz: "
+GET sayi
+n = 0
+LOOP True THEN
+    IF (sayi >= 10^n) and (sayi < 10^(n + 1)) THEN
+        basamak = n + 1
+        WRITE basamak + " basamaklı."
+        break
+    ELSE
+        n = n + 1
+    ENDIF
+ENDLOOP
 """
