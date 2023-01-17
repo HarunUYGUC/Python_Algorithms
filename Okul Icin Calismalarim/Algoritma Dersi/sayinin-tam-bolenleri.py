@@ -11,8 +11,11 @@ bolum = sayi
 while (bolen < bolum):
     if (sayi % bolen == 0):
         bolum = sayi // bolen
-        sayininTamBolenleri.append(bolen)
-        sayininTamBolenleri.append(bolum)
+        if (bolen != bolum):
+            sayininTamBolenleri.append(bolen)
+            sayininTamBolenleri.append(bolum)
+        else:
+            sayininTamBolenleri.append(bolen)
     bolen += 1
 
 sayininTamBolenleri.sort()
@@ -61,8 +64,11 @@ bolum = sayi
 LOOP (bolen < bolum) THEN
     IF (sayi % bolen == 0) THEN
         bolum = sayi // bolen
-        DISPLAY bolen
-        DISPLAY bolum
+        IF (bolen != bolum) THEN
+            DISPLAY bolen
+            DISPLAY bolum
+        ELSE
+            DISPLAY bolen
     ENDIF
     bolen = bolen + 1
 ENDLOOP
