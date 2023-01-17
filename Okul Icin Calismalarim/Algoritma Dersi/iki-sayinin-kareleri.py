@@ -43,6 +43,7 @@ A9: Bitir
 
 # "Sözde Kod (pseude-code)" ile gösterilmesi:
 """
+START
 WRITE "Pozitif bir tam sayı giriniz: "
 GET sayi
 bayrak = False
@@ -62,4 +63,6 @@ LOOP (i <= sayi) THEN
 ENDLOOP
 IF (bayrak == False) THEN
     WRITE sayi + " iki sayının karesinin toplamı şeklinde yazılamaz."
+ENDIF
+FINISH
 """
