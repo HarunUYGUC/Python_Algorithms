@@ -5,14 +5,14 @@ if (y < 0):
     print(f"{x} sayısı için f(x) fonksiyonunun işareti '-1'dir.")
 elif (y == 0):
     print(f"{x} sayısı için f(x) fonksiyonunun işareti '0'dır.")
-elif (y > 0):
+else:
     print(f"{x} sayısı için f(x) fonksiyonunun işareti '1'dir.")
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
-A2: Yaz, "Bir sayı giriniz: "
+A2: Yaz, "f(x) = x^2 - 5x + 3 fonksiyonu için bir sayı giriniz: "
 A3: Oku, x
 A4: y = x^2 - 5*x + 3
 A5: Eğer (y < 0) ise
@@ -22,4 +22,18 @@ A5.3:   Yaz, "Fonksiyonun işareti 0'dır."
 A5.4: Eğer değilse (y > 0) ise
 A5.5:   Yaz, "Fonksiyonun işareti 1'dir."
 A6: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "f(x) = x^2 - 5x + 3 fonksiyonu için bir sayı giriniz: "
+GET x
+y = x^2 - 5*x + 3
+IF (y < 0) THEN
+    WRITE "Fonksiyonun işareti -1'dir."
+ELSEIF (y == 0) THEN
+    WRITE "Fonksiyonun işareti 0'dır."
+ELSE
+    WRITE "Fonksiyonun işareti 1'dir."
+ENDIF
 """
