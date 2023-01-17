@@ -40,7 +40,7 @@ LOOP (i < kacHak) THEN
         break
     ENDIF
 ENDLOOP
-IF (flag = False) THEN
+IF (flag == False) THEN
     WRITE "Bulamadınız! Bulunacak harf " + bulunacakHarf + " idi."
 ENDIF
 """
