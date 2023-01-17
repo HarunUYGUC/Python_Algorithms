@@ -39,7 +39,7 @@ enBuyuk = -1
 FOR (i; 1 to (kacTane + 1), STEP = 1)
     WRITE i + ". sayıyı giriniz: "
     GET sayi
-    IF (sayi1 % 2 == 0) and (sayi > enBuyuk) THEN
+    IF (sayi % 2 == 0) and (sayi > enBuyuk) THEN
         enBuyuk = sayi
     ENDIF
 ENDFOR
