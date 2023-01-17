@@ -7,7 +7,7 @@ while (i <= kacKere):
     i += 1
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "Bir isim giriniz."
@@ -19,4 +19,17 @@ A7: Döngü (i <= kacKere) ise
 A7.1:   Yaz, i + "." + isim
 A7.2:   i = i + 1
 A8: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "Bir isim giriniz: "
+GET isim
+WRITE "İsminizi kaç kere alt alta yazdırmak istersiniz?: "
+GET kacKere
+i = 1
+LOOP (i <= kacKere) THEN
+    WRITE i + "." + isim
+    i = i + 1
+ENDLOOP
 """
