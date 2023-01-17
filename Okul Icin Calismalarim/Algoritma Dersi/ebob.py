@@ -45,7 +45,7 @@ ELSE
     kucukSayi = sayi1
 ENDIF
 FOR (i; kucukSayi to 0, STEP = -1)
-    IF (sayi1 % 2 == 0) and (sayi2 % i == 0) THEN
+    IF (sayi1 % i == 0) and (sayi2 % i == 0) THEN
         ebob = i
         break
     ENDIF
