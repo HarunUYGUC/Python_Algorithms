@@ -15,7 +15,7 @@ print(f"Teklerin Toplamı: {tekToplami} \nÇiftlerin Toplamı: {ciftToplami}")
 print(f"Teklerin Çarpımı: {tekCarpimi} \nÇiftlerin Çarpımı: {ciftCarpimi}")
 
 
-# Satır algoritma ile gösterilmesi:
+# Metinsel olarak gösterilmesi:
 """
 A1: Başla.
 A2: tekToplami = 0 yap.
@@ -34,7 +34,7 @@ A12: Çifterin Çarpımı: ciftCarpimi nı yaz.
 A13: Bitir. 
 """
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: tekToplami = 0 
@@ -48,9 +48,30 @@ A6.3:       ciftCarpimi = ciftCarpimi * i
 A6.4:   Değil ise
 A6.5        tekToplami = tekToplami + i
 A6.6:       tekCarpimi = tekCarpimi * i
-A7: Yaz, tekToplami
-A8: Yaz, ciftToplami
-A9: Yaz, tekCarpimi
-A10: Yaz, ciftCarpimi
+A7: Yaz, "Teklerin Toplamı: " + tekToplami
+A8: Yaz, "Çiftlerin Toplamı: " + ciftToplami
+A9: Yaz, "Teklerin Çarpımı: " + tekCarpimi
+A10: Yaz, "Çiftlerin Çarpımı: " + ciftCarpimi
 A11: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+tekToplami = 0
+tekCarpimi = 1
+ciftToplami = 0
+ciftCarpimi = 1
+FOR (i; 1 to 100, STEP = 1)
+    IF (i % 2 == 0) THEN
+        ciftToplami = ciftToplami + i
+        ciftCarpimi = ciftCarpimi * i
+    ELSE:
+        tekToplami = tekToplami + i
+        tekCarpimi = tekCarpimi * i
+    ENDIF
+ENDFOR
+WRITE "Teklerin Toplamı: " + tekToplami
+WRITE "Çiftlerin Toplamı: " + ciftToplami
+WRITE "Teklerin Çarpımı: " + tekCarpimi
+WRITE "Çiftlerin Çarpımı: " + ciftCarpimi
 """
