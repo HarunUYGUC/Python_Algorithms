@@ -8,7 +8,7 @@ else:
     print(f"{x} sayısı negatif bir sayıdır.")
 
 
-# Satır algoritma ile gösterilmesi:
+# Metinsel olarak gösterilmesi:
 """
 A1: Başla.
 A2: Bir sayı (x) giriniz
@@ -18,7 +18,7 @@ A5: Eğer x sayısı sıfıra eşitse "sıfır" yaz.
 A6: Bitir.
 """
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "Bir sayı giriniz: "
@@ -30,4 +30,17 @@ A5.1:   Yaz, "Negatif"
 A6: Eğer (x == 0) ise
 A6.1:   Yaz, "Sıfır"
 A7: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "Bir sayı giriniz: "
+GET x
+IF (x > 0) THEN
+    WRITE x + " Sayısı Pozitif."
+ELSEIF (x == 0) THEN
+    WRITE x + " Sayısı Sıfır."
+ELSE
+    WRITE x + " Sayısı Negatif."
+ENDIF
 """
