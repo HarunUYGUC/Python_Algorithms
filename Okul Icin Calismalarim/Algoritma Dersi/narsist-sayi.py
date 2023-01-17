@@ -1,3 +1,10 @@
+"""
+Narsistik Sayılar (Armstrong Sayılar), n haneli bir sayının basamaklarının n' inci üstlerinin toplamı, 
+sayının kendisine eşitse, böyle sayılara narsist sayılar denir. 
+Tablodaki gibi 153 sayısı 3 haneli bir narsist sayıdır. 
+1^3 + 5^3 + 3^3 = 153 olmaktadır.
+"""
+
 for i in range(999, 99, -1):
     j = 1
     locali = i
@@ -12,7 +19,7 @@ for i in range(999, 99, -1):
         break
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Döngü (i; 999 to 99, adım = -1)
@@ -28,4 +35,23 @@ A2.9:   Eğer (narsistToplam == i) ise
 A2.10:      Yaz, i + " sayısı 3 basamaklı en büyük narsist sayıdır."
 A2.11:      break
 A3: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+FOR (i; 999 to 99, STEP = -1)
+    j = 1
+    locali = i
+    narsistToplam = 0
+    LOOP (j <= 3) THEN
+        kalan = locali % 10
+        narsistToplam = narsistTopam + kalan
+        locali = locali // 10
+        j = j + 1
+    ENDLOOP
+    IF (narsistToplam == i) THEN
+        WRITE i + " sayısı 3 basamaklı en büyük narsist sayıdır."
+        break
+    ENDIF
+ENDFOR
 """
