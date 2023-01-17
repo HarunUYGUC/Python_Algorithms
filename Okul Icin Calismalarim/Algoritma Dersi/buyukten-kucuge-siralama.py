@@ -20,7 +20,7 @@ if (sayi2 > sayi3):
 print(f"Büyükten küçüğe sıralama: {sayi3} > {sayi2} > {sayi1}")
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "1. Sayıyı Giriniz: "
@@ -43,4 +43,30 @@ A10.2:  sayi3 = sayi2
 A10.3:  sayi2 = tutucu
 A11: Yaz, "Büyükten küçüğe sıralama: " + sayi3 + ">" + sayi2 + ">" + sayi1
 A12: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "1. Sayıyı giriniz: "
+GET sayi1
+WRITE "2. Sayıyı giriniz: "
+GET sayi2
+WRITE "3. Sayıyı giriniz: "
+GET sayi3
+IF (sayi1 > sayi2) THEN
+    tutucu = sayi1
+    sayi1 = sayi2
+    sayi2 = tutucu
+ENDIF
+IF (sayi1 > sayi3) THEN
+    tutucu = sayi1
+    sayi1 = sayi3
+    sayi3 = tutucu
+ENDIF
+IF (sayi2 > sayi3) THEN
+    tutucu = sayi2
+    sayi2 = sayi3
+    sayi3 = tutucu
+ENDIF
+WRITE "Büyükten küçüğe sıralama: " + sayi3 + ">" + sayi2 + ">" + sayi1
 """
