@@ -10,7 +10,7 @@ else:
     print("Çeşitkenar üçgen!")
 
 
-# Sözde kod (pseude-code) ile gösterilmesi:
+# "Satır Algoritma" ile gösterilmesi:
 """
 A1: Başla
 A2: Yaz, "Üçgenin 1. kenarını giriniz: "
@@ -26,4 +26,21 @@ A9.1:   Yaz, "İkizkenar üçgen!"
 A10: Değil ise
 A10.1:  Yaz, "Çeşitkenar üçgen!"
 A11: Bitir
+"""
+
+# "Sözde Kod (pseude-code)" ile gösterilmesi:
+"""
+WRITE "Üçgenin 1. Kenarını Giriniz: "
+GET kenar1
+WRITE "Üçgenin 2. Kenarını Giriniz: "
+GET kenar2
+WRITE "Üçgenin 3. Kenarını Giriniz: "
+GET kenar3
+IF (kenar1 == kenar2 == kenar3) THEN
+    WRITE "Eşkenar üçgen!"
+ELSEIF (kenar1 == kenar2) or (kenar1 == kenar3) or (kenar2 == kenar3) THEN
+    WRITE "İkizkenar üçgen!"
+ELSE
+    WRITE "Çeşitkenar Üçgen!"
+ENDIF
 """
