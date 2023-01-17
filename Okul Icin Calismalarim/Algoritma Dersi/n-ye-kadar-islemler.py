@@ -31,6 +31,7 @@ FOR (i; 1 to (sayi + 1), STEP = 1)
         tekToplami = tekToplami + i
         tekCarpimi = tekCarpimi * i
     ENDIF
+ENDFOR
 WRITE sayi + "'e Kadar Ki Teklerin Toplamı: " + tekToplami
 WRITE sayi + "'e Kadar Ki Teklerin Çarpımı: " + tekCarpimi
 WRITE sayi + "'e Kadar Ki Çiftlerin Kareleri Toplamı: " + ciftlerinKareleriToplami
