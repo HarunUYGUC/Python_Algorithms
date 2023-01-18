@@ -69,6 +69,7 @@ LOOP (bolen < bolum) THEN
             DISPLAY bolum
         ELSE
             DISPLAY bolen
+        ENDIF
     ENDIF
     bolen = bolen + 1
 ENDLOOP

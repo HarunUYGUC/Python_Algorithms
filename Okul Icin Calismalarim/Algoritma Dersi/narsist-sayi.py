@@ -45,7 +45,7 @@ FOR (i; 999 to 99, STEP = -1)
     narsistToplam = 0
     LOOP (j <= 3) THEN
         kalan = locali % 10
-        narsistToplam = narsistTopam + kalan
+        narsistToplam = narsistTopam + kalan^3
         locali = locali // 10
         j = j + 1
     ENDLOOP
