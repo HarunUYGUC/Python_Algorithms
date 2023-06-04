@@ -1,5 +1,8 @@
 # Python-Algoritmalarim
 My Python Algorithms
 
-- I have my own notes and works related to my 1st year computer engineering lessons in this Python repository.
+- You can see my own notes and studies about the algorithm course, which is the basic course of computer engineering, which I took in the fall semester of the 1st year, in this repository.
+- We didn't learn Python in school. I learned it myself before I started school. In this way, I was able to try the algorithms written in the paper we learned at school with Python and learn better.
+- I also learned the algorithm just before learning Python.
+
 - My Project Euler works and some of my research notes are also in this repository.
