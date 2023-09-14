@@ -54,7 +54,7 @@ for row in rows:
         biggest = row[0]
         index_of_biggest = 0
         
-    print(f"Biggest İndex: {index_of_biggest}")
+    print(f"Biggest Index: {index_of_biggest}")
     print(f"Biggest Number: {biggest}")
     sum += biggest
 
