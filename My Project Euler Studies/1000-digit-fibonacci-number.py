@@ -22,20 +22,20 @@ What is the index of the first term in the Fibonacci sequence
 to contain 1000 digits?
 """
 
-number1 = 1
-number2 = 1
-list = [number1, number2]
-index = len(list) - 1
+a = 1
+b = 1
+fib_list = [a, b]
+last_index = len(fib_list) - 1
 
 while True:
-    sum = number1 + number2
-    list.append(sum)
+    sum = a + b
+    fib_list.append(sum)
 
-    number1 = number2
-    number2 = sum
+    a = b
+    b = sum
 
-    index += 1
+    last_index += 1
 
-    if (len(str(list[index])) == 1000):
-        print(index + 1)
+    if (len(str(fib_list[last_index])) == 1000):
+        print(last_index + 1)
         break
