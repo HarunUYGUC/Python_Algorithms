@@ -1,4 +1,4 @@
-# Python-Algoritmalarim
+# Python_Algorithms
 My Python Algorithms
 
 - You can see my own notes and studies about the algorithm course, which is the basic course of computer engineering, which I took in the fall semester of the 1st year, in this repository.
