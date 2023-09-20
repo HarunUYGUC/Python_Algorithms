@@ -45,3 +45,17 @@ def sum_of_digits(fact):
     return sum
 
 print(sum_of_digits(factorial(100)))
+
+
+# Method 3
+
+def sum_of_digits(func, num):
+    fact = str(func(num))
+    sum = 0
+
+    for number in fact:
+        sum += int(number)
+
+    return sum
+
+print(sum_of_digits(factorial, 100))
