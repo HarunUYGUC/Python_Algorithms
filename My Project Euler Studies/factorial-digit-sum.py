@@ -44,5 +44,4 @@ def sum_of_digits(fact):
 
     return sum
 
-facto = factorial(100)
-print(sum_of_digits(facto))
+print(sum_of_digits(factorial(100)))
