@@ -1,3 +1,5 @@
+""" https://projecteuler.net/problem=2 """
+
 sayi1 = 0
 sayi2 = 1
 liste = [sayi1, sayi2]
@@ -8,6 +10,7 @@ while True:
     liste.append(fibonacciSayisi)
     sayi1 = sayi2
     sayi2 = fibonacciSayisi
+    
     if (liste[len(liste) - 1] > 4000000):
         liste.pop(len(liste) - 1)
         break

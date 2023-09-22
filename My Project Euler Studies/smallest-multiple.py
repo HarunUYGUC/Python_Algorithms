@@ -1,3 +1,5 @@
+""" https://projecteuler.net/problem=5 """
+
 # There is a solution to this problem in 4 minutes and 30 seconds. 
 # In the example in the example, the result is available instantly.
 

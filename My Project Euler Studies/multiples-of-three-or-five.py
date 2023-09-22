@@ -1,3 +1,5 @@
+""" https://projecteuler.net/problem=1 """
+
 # Method 1
 total = 0
 for number in range(0, 1000):

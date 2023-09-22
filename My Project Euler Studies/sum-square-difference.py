@@ -1,3 +1,5 @@
+""" https://projecteuler.net/problem=6 """
+
 sum_of_the_squares = 0
 sum = 0
 
