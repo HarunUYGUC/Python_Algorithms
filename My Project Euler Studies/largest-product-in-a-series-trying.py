@@ -1,23 +1,26 @@
-with open(r"C:\Users\Harun\Desktop\Python_Algorithms\My Project Euler Studies\largest-product-in-a-series.txt") as file:
+""" https://projecteuler.net/problem=8 """
+
+# ANSWER: 23514624000 but I couldn't finddddddd.
+# My ANSWER is 5377010688.
+# But the answer is correct for the question in the example.
+
+# I thought about the question line by line and did that, but we needed to do it by thinking as a whole, not like that.
+# Finally I solved the question.
+# Look at the other file with the same name to see the correct code.
+
+with open(r"C:\Users\Harun\Desktop\Python_Algorithms\My Project Euler Studies\largest-product-in-a-series-trying.txt") as file:
     list_of_numbers = file.readlines()
     greatest_products = []
 
     for row in list_of_numbers:
         print("*" * 10)
-
-        # new_row = []
-
-        # for number in row:
-        #     if (number != '\n'):
-        #         row.append(number)
+        row = row.replace("\n", "")
         
-        row = row.replace("\n", "") # Instead of doing it like in the comment line, we can do it this way.
-
         print(f"ROW: {row}")
         digit = 0
 
-        while (digit != len(row) - 3):
-            thirteen_digit = row[digit:(digit + 4)]
+        while (digit != len(row) - 12): # (digit != len(row) - 3) For the answer in the example.
+            thirteen_digit = row[digit:(digit + 13)] # (digit + 4) For the answer in the example.
             multi = 1
 
             print(thirteen_digit)
