@@ -6,7 +6,7 @@ class Solution:
         if (a == "0") and (b == "0"):
             return "0"
 
-        # a
+        # Decimal a
         suma = 0
         lena = len(a) - 1
 
@@ -16,7 +16,7 @@ class Solution:
 
             lena -= 1
 
-        # b
+        # Decimal b
         sumb = 0
         lenb = len(b) - 1
 
@@ -26,9 +26,9 @@ class Solution:
                 
             lenb -= 1
         
-        # total
+        # Decimal total
         total = suma + sumb
-        binary = ""
+        binary = "" # Backwards
         newBinary = ""
 
         while (total > 0):
