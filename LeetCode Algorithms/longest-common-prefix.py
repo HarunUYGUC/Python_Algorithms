@@ -1,31 +1,29 @@
-""" https://leetcode.com/problems/longest-common-prefix/ """
+""" https://leetcode.com/problems/longest-common-prefix/description/ """
 
 class Solution:
     def longestCommonPrefix(self, strs):
-        prefix = ""
         first = strs[0]
         strs.pop(0)
-        firstLen = len(first)
+        prefix = ""
+        n = -1
 
-        for str in strs:
-            othersLen = len(str)
+        for c in first: 
+            count = 0
+            n += 1
 
-            if (firstLen > othersLen):
-                size = othersLen
-            else:
-                size = firstLen
-
-            for i in range(size - 1):
-                if (str[i] == first[i]):
-                    prefix += str[i]
+            for str in strs:
+                if (n <= len(str) - 1):
+                    if (c == str[n]):
+                        count += 1
                 else:
                     break
             
-        if (prefix == 0):
-            print("")
-        else:
-            print(prefix)
+            if (count == len(strs)):
+                prefix += c
+            else:
+                break
+                
+        return prefix
 
 solution = Solution()
-result = solution.longestCommonPrefix(["flower","flow","flight"])
-print(result)
+print(solution.longestCommonPrefix(["flower","flow","flight"]))
