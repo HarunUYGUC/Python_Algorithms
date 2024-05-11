@@ -13,7 +13,7 @@ class Solution:
             elif (i % 3 == 0):
                 list.append("Fizz")
             else:
-                list.append(f"{i}")
+                list.append(f"{i}") # str(i)
 
             i += 1
         
