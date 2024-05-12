@@ -1,4 +1,5 @@
 """ https://leetcode.com/problems/valid-parentheses/ """
+# My code passed about 71 of 98 tests.
 
 class Solution:
     def isValid(self, s):
