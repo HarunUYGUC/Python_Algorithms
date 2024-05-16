@@ -5,16 +5,13 @@ import numpy as np
 class Solution:
     def matrixReshape(self, mat, r, c):
         if (len(mat) * len(mat[0]) == r * c):
-            oneDimenMat = np.arange(r * c)
-            n = 0
+            oneDimenMat = []
 
-            for i in range(len(mat)):
-                for j in range(len(mat[0])):
-                    oneDimenMat[n] = mat[i][j]
-                    n += 1
+            for row in mat:
+                for num in row:
+                    oneDimenMat.append(num)
 
-            newMatrix = np.arange(r * c)
-            newMatrix = newMatrix.reshape(r, c)
+            newMatrix = np.arange(r * c).reshape(r, c)
             n = 0
 
             for i in range(len(newMatrix)):
