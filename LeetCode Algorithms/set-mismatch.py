@@ -23,6 +23,7 @@ print(Solution().findErrorNums([3,2,3,4,6,5]))
 
 # Method 2 
 # Again slow but much faster than the other one. I also beat 99.32% people in memory usage. "Accepted"
+# 4315 ms and 17.7 MB
 
 class Solution:
     def findErrorNums(self, nums):
@@ -30,6 +31,13 @@ class Solution:
         nums.sort()
 
         for num in range(1, len(nums) + 1):
+            # If I write this code, it runs faster, but the memory usage increases slightly.
+            # Beats 72.79% of users in memory usage. "Accepted"
+            # 3383 ms and 18 MB
+
+            # if (list[0] != 0) and (list[1] != 0):
+            #     break
+
             if num not in nums:
                 list[1] = num
             else:
