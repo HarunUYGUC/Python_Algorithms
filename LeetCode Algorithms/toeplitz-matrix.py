@@ -1,5 +1,7 @@
 """ https://leetcode.com/problems/toeplitz-matrix/ """
 
+# 364 / 483 testcases passed
+
 class Solution:
     def isToeplitzMatrix(self, matrix):
         if (len(matrix) > len(matrix[0])):
