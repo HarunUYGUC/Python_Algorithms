@@ -10,23 +10,16 @@ class Solution:
         for i in range(len(nums)):            
             if (i > 0) and (i < len(nums) - 1):
                 rightSum -= nums[i]
-                
                 leftSum += nums[i - 1]
-
-                if (leftSum == rightSum):
-                    return i
             elif (i == 0):
                 leftSum = 0
                 rightSum = sumAll - nums[i]
-                
-                if (leftSum == rightSum):
-                    return i
             elif (i == len(nums) - 1):
                 leftSum = sumAll - nums[i]
                 rightSum = 0
 
-                if (leftSum == rightSum):
-                    return i
+            if (leftSum == rightSum):
+                return i
                 
         return -1
     
