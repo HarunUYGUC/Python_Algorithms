@@ -12,8 +12,6 @@ class Solution:
             if (firstMaxStone > secondMaxStone):
                 stones.append(firstMaxStone - secondMaxStone)
 
-            print(stones)
-
         if (len(stones) == 0):
             return 0
         else:
