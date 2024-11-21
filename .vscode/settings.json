@@ -13,6 +13,20 @@
             "group": "Development",
             "username": "root",
             "database": "leetcode"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Test MySQL",
+            "group": "Test",
+            "database": "kullanici-db",
+            "username": "root"
         }
     ]
 }
