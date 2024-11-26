@@ -2,7 +2,8 @@
 
 -- LEFT JOIN
 -- İlk tablodaki tüm veriler gelir.
--- İlk tablo ile ikinci tablodaki eşleşmeyen kayıtlara NULL koyulur.
+-- İkinci tabloda ilk tablo ile ilgili kayıt yoksa NULL koyulur, kayıt varsa o değer koyulur.
+
 SELECT 
     P.firstName, P.lastName, A.city, A.state
 FROM 
